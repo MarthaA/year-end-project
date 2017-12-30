@@ -86,21 +86,10 @@ body {
 }
 
 .photo-container {
-  width: 75%;
-  margin: 0 auto;
-  padding-top: 50px;
-}
-
-.full-photo-container {
   width: 90%;
   margin: 0 auto;
-}
-
-@media (min-width: 800px) {
-  .full-photo-container {
-    width: 85%;
-    margin: 0 auto;
-  }
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 
@@ -127,13 +116,27 @@ img.mobile {
 
 .vl {
     border-left: 1px #004697 solid;
-    height: 100px;
+    height: 60px;
     position:relative;
     left: 50%;
     top: 0;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin-top: 25px;
+    margin-bottom: 25px;
     width: 50%;
+}
+
+
+@media (min-width: 480px) {
+  .vl {
+      border-left: 1px #004697 solid;
+      height: 90px;
+      position:relative;
+      left: 50%;
+      top: 0;
+      margin-top: 50px;
+      margin-bottom: 50px;
+      width: 50%;
+  }
 }
 
 img.uk-logo {
@@ -142,19 +145,19 @@ img.uk-logo {
 
 @media (min-width: 480px) {
   img.uk-logo {
-    width: 80%;
+    width: 90%;
   }
 }
 
 
 @media (min-width: 600px) {
   img.uk-logo {
-    width: 50%;
+    width: 60%;
   }
 }
 
 .numbers {
-  padding-bottom: 50px;
+  padding-bottom: 20px;
 }
 
 @media (min-width: 600px) {
@@ -433,7 +436,7 @@ h1,
 .uk-h1{
   margin: 0 0 20px 0;
   font-family: 'Lora', "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-  font-weight: 600;
+  font-weight: 700;
   font-size: 25px;
   color: #666667;
   text-transform: none;
@@ -455,14 +458,29 @@ h1,
 
 h2,
 .uk-h2{
-  margin: 0 0 20px 0;
+  margin: 50px 0px 20px 0;
   font-family: 'Lato', "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   font-weight: 600;
-  font-size: 18px;
+  font-size: 14px;
   color: #666667;
   text-transform: uppercase;
   letter-spacing: .15em;
 }
+
+
+@media (min-width: 600px) {
+  h2,
+  .uk-h2{
+    margin: 20px 0 20px 0;
+    font-family: 'Lato', "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    color: #666667;
+    text-transform: uppercase;
+    letter-spacing: .15em;
+  }
+}
+
 
 h3,
 .uk-h3{
@@ -479,7 +497,7 @@ h4,
 .uk-h4{
   margin: 0 0 20px 0;
   font-family: 'Lora', "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-  font-weight: 600;
+  font-weight: 700;
   font-size: 30px;
   color: #666667;
   text-transform: none;
@@ -505,7 +523,7 @@ h5,
 .uk-h5{
   margin: 0 0 20px 0;
   font-family: 'Lora', "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-  font-weight: 600;
+  font-weight: 700;
   font-size: 22px;
   color: #1C5AA2;
   text-transform: none;
@@ -519,6 +537,8 @@ h5,
   h5,
   .uk-h5{
     width: 80%;
+    font-size: 28px;
+
   }
 }
 @media (min-width: 960px) {
@@ -538,6 +558,7 @@ h6,
   padding-bottom: 20px;
   margin: 0 auto;
   width: 100%;
+  line-height: 1.75;
 }
 
 @media (min-width: 600px) {
@@ -552,17 +573,11 @@ h6,
   .uk-h6 {
     font-size: 26px;
     width: 80%;
-    line-height: 1.75;
   }
 }
 
-@media (min-width: 1180px) {
-  h6,
-  .uk-h6 {
-    font-size: 26px;
-    width: 80%;
-  }
-}
+
+
 
 p.closing {
   text-align: center;
@@ -730,15 +745,22 @@ figcaption {
   font-family: 'Lato',sans-serif;
   color: #004697;
   font-size: 14px;
-  margin-top: .5em;
+  margin-top: 1em;
 }
 
 figcaption.number {
   font-family: 'Lato',sans-serif;
   color: #004697;
-  font-size: 28px;
+  font-size: 20px;
   margin-top: .5em;
   font-weight: 600;
+}
+
+@media (min-width: 600px) {
+  figcaption.number {
+    font-size: 28px;
+  }
+}ont-weight: 600;
 }
 /*
  * Add the correct vertical alignment in Chrome, Firefox, and Opera.
@@ -7043,8 +7065,42 @@ ul.uk-nav-sub {
   /* 2 */
   flex-basis: 1px;
 }
+@media (min-width: 320px) {
+  .uk-child-width-1-1\@p > * {
+    width: 100%;
+  }
+  .uk-child-width-1-2\@p > * {
+    width: 50%;
+  }
+  .uk-child-width-1-3\@p > * {
+    width: calc(100% * 1 / 3.001);
+  }
+  .uk-child-width-1-4\@p > * {
+    width: 25%;
+  }
+  .uk-child-width-1-5\@p > * {
+    width: 20%;
+  }
+  .uk-child-width-1-6\@p > * {
+    width: calc(100% * 1 / 6.001);
+  }
+  .uk-child-width-auto\@p > * {
+    width: auto;
+  }
+  .uk-child-width-expand\@p > * {
+    width: 1px;
+  }
+  .uk-child-width-expand\@p > :not([class*='uk-width']) {
+    -ms-flex: 1;
+    -webkit-flex: 1;
+    flex: 1;
+    min-width: 0;
+    flex-basis: 1px;
+  }
+}
+
 /* Phone landscape and bigger */
-@media (min-width: 640px) {
+@media (min-width: 600px) {
   .uk-child-width-1-1\@s > * {
     width: 100%;
   }
