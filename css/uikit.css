@@ -21,7 +21,7 @@ html {
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
   /* 3 */
-  background: #004697;
+  background: #0D3182;
   color: #666;
   -webkit-font-smoothing: antialiased;
 
@@ -32,13 +32,13 @@ html {
 body {
   margin: 0;
   background: #fff;
-  border-left: 2vw solid #004697;
-  border-right: 2vw solid #004697;
+  border-left: 2vw solid #0D3182;
+  border-right: 2vw solid #0D3182;
 }
 @media (min-width: 600px) {
   body {
-    border-left: 1vw solid #004697;
-    border-right: 1vw solid #004697;
+    border-left: 1vw solid #0D3182;
+    border-right: 1vw solid #0D3182;
   }
 }
 @import url('https://fonts.googleapis.com/css?family=Lato|Lora');
@@ -115,7 +115,7 @@ img.mobile {
 }
 
 .vl {
-    border-left: 1px #004697 solid;
+    border-left: 1px #0D3182 solid;
     height: 60px;
     position:relative;
     left: 50%;
@@ -128,7 +128,7 @@ img.mobile {
 
 @media (min-width: 480px) {
   .vl {
-      border-left: 1px #004697 solid;
+      border-left: 1px #0D3182 solid;
       height: 90px;
       position:relative;
       left: 50%;
@@ -393,7 +393,7 @@ p {
   text-align: left;
   margin: 0 auto;
   width: 90%;
-  color: #004697;
+  color: #0D3182;
   font-size: 16px;
   line-height: 2;
 }
@@ -488,7 +488,7 @@ h3,
   font-family: 'Lato', "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   font-weight: 600;
   font-size: 18px;
-  color: #004697;
+  color: #0D3182;
   text-transform: uppercase;
   letter-spacing: .15em;
 }
@@ -743,14 +743,14 @@ summary {
 
 figcaption {
   font-family: 'Lato',sans-serif;
-  color: #004697;
+  color: #0D3182;
   font-size: 14px;
   margin-top: 1em;
 }
 
 figcaption.number {
   font-family: 'Lato',sans-serif;
-  color: #004697;
+  color: #0D3182;
   font-size: 20px;
   margin-top: .5em;
   font-weight: 600;
@@ -1012,7 +1012,7 @@ a.uk-link-reset:hover,
   display: inline-block;
   width: 200px;
   max-width: 100%;
-  border-top: 1px solid #004697;
+  border-top: 1px solid #0D3182;
   vertical-align: top;
 }
 /* ========================================================================
