@@ -394,8 +394,8 @@ p {
   margin: 0 auto;
   width: 90%;
   color: #0D3182;
-  font-size: 16px;
-  line-height: 2;
+  font-size: 18px;
+  line-height: 1.75;
 }
 
 @media (min-width: 600px) {
@@ -8599,10 +8599,25 @@ iframe.uk-cover {
   display: block;
   margin-right: 10px;
   float: left;
-  font-size: 3.5em;
-  line-height: 1.15;
-  margin-bottom: -0px;
+  font-size: 3.25em;
+  line-height: 1.1;
+  margin-bottom: -5px;
 }
+
+@media (min-width: 600px) {
+  .uk-dropcap::first-letter,
+  .uk-dropcap > p:first-of-type::first-letter {
+    display: block;
+    margin-right: 10px;
+    float: left;
+    font-size: 3.5em;
+    line-height: 1;
+    margin-bottom: -5px;
+  }
+}
+
+
+
 /* Leader
  ========================================================================== */
 .uk-leader {
