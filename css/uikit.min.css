@@ -33,7 +33,11 @@ img.uk-logo{width:60%;}
 @media (min-width:600px){.numbers{padding-bottom:50px;}
 }
 .numbers img{width:80%;}
-@media (min-width:600px){.numbers img{width:50%;}
+@media (min-width:400px){.numbers img{width:60%;}
+}
+@media (min-width:600px){.numbers img{width:45%;}
+}
+@media (min-width:900px){.numbers img{width:35%;}
 }
 .footer-img{width:100%;}
 .footer{width:100%;}
