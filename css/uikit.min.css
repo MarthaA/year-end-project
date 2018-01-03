@@ -115,7 +115,7 @@ h1,
 .uk-h1{font-size:40px;}
 }
 h2,
-.uk-h2{margin:50px 0px 20px 0;font-family:'Lato', "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;font-weight:600;font-size:14px;color:#666667;text-transform:uppercase;letter-spacing:.15em;}
+.uk-h2{margin:0px 0px 20px 0; padding-top: 50px; font-family:'Lato', "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;font-weight:600;font-size:14px;color:#666667;text-transform:uppercase;letter-spacing:.15em;}
 @media (min-width:600px){h2,
 .uk-h2{margin:20px 0 20px 0;font-family:'Lato', "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;font-weight:600;font-size:18px;color:#666667;text-transform:uppercase;letter-spacing:.15em;}
 }
